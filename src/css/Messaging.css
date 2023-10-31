@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainMsg {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: rgb(253, 253, 253);
+}
+
+
+.middleMsg {
+    height: 100vh;
+    width: 40%;
+    margin: 20px 40px 0px 10px;
+    border-radius: 15px;
+}
+
+.mapMsg {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    border: 1px solid grey;
+    background-color: #ebf3f9;
+    border-radius: 15px;
+    margin: 10px 0px 0px 0px;
+}
+
+.mapMsg:hover {
+    box-shadow: 0px 5px 5px 0px;
+}
+
+.mapMsg .mes {
+    color: rgb(58, 54, 54);
+    margin: 10px 0px 0px 10px;
+}
+
+.mapMsg p {
+    margin: 10px 10px 0px 10px;
+}
